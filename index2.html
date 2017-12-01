@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST" action="https://formspree.io/andrew_i.k@ukr.net">
+        <h1>Tesla</h1>
+        <fieldset>
+            <legend>Personal data</legend>
+            <ol>
+                <li>Gender<br>
+                <label><input type="radio" name="gender" value="female"/>mail</label>
+                    <br>
+                    <label><input type="radio" name="gender" value="male"/>femail</label>
+                    <br>
+                </li>
+                <li><label>First Name:<br><input type="text" name="text"/></label></li>
+                <li><label>Second Name:<br><input type="text" name="text"/></label></li>
+                <li>
+                    <label>Contact Preferrence:
+                        <select name="black-cat">
+                            <option value="">Phone</option>
+                            <option value="">Email</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label>Phone number<br><input type="text" name=""required pattern="{3}{2}{2}{3}" placeholder="xxx-xx-xx-xxx"/></label>
+                </li>
+                <li>
+                    <label>Email<br><input type="text" name=""required/></label>
+                </li>
+            </ol>
+        </fieldset>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+    </form>
+</body>
+</html>
